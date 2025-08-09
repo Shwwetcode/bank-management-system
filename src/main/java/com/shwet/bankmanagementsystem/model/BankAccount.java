@@ -1,35 +1,30 @@
 package com.shwet.bankmanagementsystem.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import io.swagger.v3.oas.annotations.media.Schema;
+import jakarta.persistence.*;
 
 @Entity
+@Schema(description = "Bank account details")
 public class BankAccount {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Schema(description = "Unique ID of the bank account", example = "1")
     private Long id;
 
+    @Schema(description = "Name of the account holder", example = "John Doe")
     private String holderName;
-    private String accountNumber;
-    private double balance;  // New field
+
+    @Schema(description = "Current account balance", example = "1500.75")
+    private double balance;
 
     // Getters and setters
     public Long getId() { return id; }
-
     public void setId(Long id) { this.id = id; }
 
     public String getHolderName() { return holderName; }
-
     public void setHolderName(String holderName) { this.holderName = holderName; }
 
-    public String getAccountNumber() { return accountNumber; }
-
-    public void setAccountNumber(String accountNumber) { this.accountNumber = accountNumber; }
-
     public double getBalance() { return balance; }
-
     public void setBalance(double balance) { this.balance = balance; }
 }
