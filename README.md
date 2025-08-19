@@ -1,44 +1,35 @@
-# 💳 Bank Management System (Spring Boot + MySQL)
+🏦 Bank Management System
 
-A **Bank Management System** built using **Spring Boot**, **MySQL**, and **Swagger UI**.  
-It allows users to create and manage bank accounts, deposit/withdraw money, and track transactions via REST APIs.
+A full-stack Bank Management System built with React (frontend) and Spring Boot / Node.js (backend) to manage bank accounts, users, and transactions.
 
----
+✨ Features
+	•	🔐 Authentication & Authorization (Admin & User roles)
+	•	👤 User Management (Admins can add/remove/update users & roles)
+	•	💰 Account Management (Create accounts, deposit, withdraw, enable/disable accounts)
+	•	📊 Transaction History per account
+	•	⚡ Responsive UI built with React
 
-## 🚀 Features
+⸻
 
-- **Account Management**
-  - Create new bank accounts
-  - Update account details
-  - View all accounts or a specific account by ID
-  - Delete accounts
+🛠️ Tech Stack
+	•	Frontend: React, Material-UI / Tailwind
+	•	Backend: Spring Boot / Node.js + Express
+	•	Database: MySQL / PostgreSQL
+	•	Authentication: JWT-based
 
-- **Transaction Operations**
-  - Deposit money
-  - Withdraw money (with balance check)
-  - View transaction history
+⸻
 
-- **API Documentation**
-  - Integrated with **Swagger UI** for interactive API testing
+🚀 Getting Started
 
----
+Prerequisites
 
-## 🛠 Tech Stack
+Make sure you have installed:<img width="2032" height="1086" alt="Screenshot 2025-08-19 at 5 12 12 PM" src="https://github.com/user-attachments/assets/08221e5b-4415-4aba-a274-1e911ecc0ffc" />
+<img width="2032" height="1086" alt="Screenshot 2025-08-19 at 5 12 03 PM" src="https://github.com/user-attachments/assets/88dd6ccf-6de7-4fec-ba61-65936ac87235" />
+<img width="2032" height="1086" alt="Screenshot 2025-08-19 at 5 12 22 PM" src="https://github.com/user-attachments/assets/b77a6221-d6b9-4f29-8518-46cd44a97800" />
+<img width="2032" height="1086" alt="Screenshot 2025-08-19 at 5 12 26 PM" src="https://github.com/user-attachments/assets/ec0f3840-ae5d-4cb3-9177-fab798d2eead" />
 
-- **Backend:** Java 21, Spring Boot 3.2
-- **Database:** MySQL
-- **ORM:** Spring Data JPA (Hibernate)
-- **API Documentation:** Swagger / OpenAPI
-- **Build Tool:** Maven
+	•	Node.js >= 16
+	•	npm or yarn
+	•	Java 17+ (if backend is Spring Boot)
+	•	MySQL/PostgreSQL
 
----
-
-## 📦 Installation & Setup!
-<img width="1920" height="1080" alt="Screenshot 2025-08-09 at 7 48 30 PM" src="https://github.com/user-attachments/assets/86893d1d-673f-49b1-9e49-5952a8281c6b" />
-<img width="1920" height="1080" alt="Screenshot 2025-08-09 at 7 48 42 PM" src="https://github.com/user-attachments/assets/f6586764-7a1e-45da-9f9b-0d6054fa3ac3" />
-<img width="1920" height="1080" alt="Screenshot 2025-08-09 at 7 48 07 PM" src="https://github.com/user-attachments/assets/0d90fca2-5a56-4013-960c-5fb707c40788" />
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/Shwwetcode/bank-management-system.git
-cd bank-management-system
